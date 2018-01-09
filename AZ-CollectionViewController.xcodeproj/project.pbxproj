@@ -18,6 +18,7 @@
 		B8A0C46F2004A52500086454 /* LoadingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A0C46D2004A52500086454 /* LoadingCollectionViewCell.swift */; };
 		B8A0C4702004A52500086454 /* LoadingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8A0C46E2004A52500086454 /* LoadingCollectionViewCell.xib */; };
 		B8A0C4722004DEFF00086454 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B8A0C4712004DEFE00086454 /* README.md */; };
+		B8A0C4742004E6AB00086454 /* AZCollectionViewController.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B8A0C4732004E6AB00086454 /* AZCollectionViewController.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		B8A0C46D2004A52500086454 /* LoadingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCollectionViewCell.swift; sourceTree = "<group>"; };
 		B8A0C46E2004A52500086454 /* LoadingCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingCollectionViewCell.xib; sourceTree = "<group>"; };
 		B8A0C4712004DEFE00086454 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B8A0C4732004E6AB00086454 /* AZCollectionViewController.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AZCollectionViewController.podspec; sourceTree = "<group>"; };
 		FE93EB965FBA4A2918CD7577 /* Pods_AZ_CollectionViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZ_CollectionViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -62,6 +64,7 @@
 		20BFCF9B1F4B122200F97C4E = {
 			isa = PBXGroup;
 			children = (
+				B8A0C4732004E6AB00086454 /* AZCollectionViewController.podspec */,
 				B8A0C4712004DEFE00086454 /* README.md */,
 				20BFCFA61F4B122200F97C4E /* AZ-CollectionViewController */,
 				20BFCFA51F4B122200F97C4E /* Products */,
@@ -174,6 +177,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8A0C4742004E6AB00086454 /* AZCollectionViewController.podspec in Resources */,
 				20BFCFB21F4B122200F97C4E /* LaunchScreen.storyboard in Resources */,
 				20BFCFAF1F4B122200F97C4E /* Assets.xcassets in Resources */,
 				B8A0C4722004DEFF00086454 /* README.md in Resources */,
