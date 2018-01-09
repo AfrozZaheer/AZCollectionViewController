@@ -1,0 +1,26 @@
+{
+  "name": "AZCollectionViewController",
+  "version": "0.1.0",
+  "summary": "Automatic pagination handling and loading views",
+  "description": "Automatic pagination handling\nNo more awkward empty CollectionView",
+  "homepage": "https://github.com/AfrozZaheer/AZTableView",
+  "platforms": {
+    "ios": "9.3"
+  },
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AfrozZ": "afrozezaheer@gmail.com"
+  },
+  "source": {
+    "git": "."
+  },
+  "resource_bundles": {
+    "AZCollectionViewElements": [
+      "Source/**/*.{xib}"
+    ]
+  },
+  "source_files": "Source/**/*.{swift}"
+}

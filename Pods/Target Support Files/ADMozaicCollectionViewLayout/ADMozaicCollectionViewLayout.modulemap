@@ -1,0 +1,6 @@
+framework module ADMozaicCollectionViewLayout {
+  umbrella header "ADMozaicCollectionViewLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}
