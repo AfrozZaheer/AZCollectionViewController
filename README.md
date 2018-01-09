@@ -85,7 +85,8 @@ class ViewController: AZCollectionViewController {
 #### Step 2
 
 * Same as AZTableVIewController
-* Set the next page loading cell outlet as given below,
+* Set the loading views outlet as given below
+* Connect collectionView outlet as well
 
 ![Alt text](http://i.imgur.com/SWYNa2W.png "AZTableView-step2")
 
