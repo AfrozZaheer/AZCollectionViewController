@@ -10,24 +10,13 @@
 [![Platform](https://img.shields.io/badge/platform-ios-lightgrey.svg)](https://cocoapods.org/pods/AZTableView)
 
 
-<p align="center">
-    <a href="http://i.imgur.com/ECtCAYk.gif">
-        <img src="http://i.imgur.com/ECtCAYk.gif" height="450">
-    </a>
-</p>
-
-
 
 ## Features
 
 * Automatic pagination handling 
 * No more awkward empty TableView screen
-* AZ TableView controller give you advantage to connect your (Loading, no result, error ) views via Interface builder
-
-## New in version 0.0.2
-
-* You can now add your custom xib as dummy views (loading, error, no result)
-* You can add xib based next page loading cell also
+* AZ CollectionVIew controller give you advantage to connect your (Loading, no result, error ) views via Interface builder
+* You can also add your custom xib as dummy views (loading, error, no result)
 
 ## Installation
 
