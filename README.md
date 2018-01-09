@@ -23,7 +23,7 @@
 ## Features
 
 * Automatic pagination handling 
-* No more awkward empty TableView screen
+* No more awkward empty CollectionView screen
 * AZ CollectionVIew controller give you advantage to connect your (Loading, no result, error ) views via Interface builder
 * You can also add your custom xib as dummy views (loading, error, no result)
 
