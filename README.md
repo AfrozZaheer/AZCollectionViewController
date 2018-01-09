@@ -1,14 +1,18 @@
 # AZCollectionView Controller
 
 
-![Alt text](http://i.imgur.com/qUV86bJ.png "AZ-TableViewImage")
-
 [![Swift version](https://img.shields.io/badge/swift%20-4.0-orange.svg)](https://img.shields.io/badge/swift%20-4.0-orange.svg)
 [![Support Dependecy Manager](https://img.shields.io/badge/support-CocoaPods-red.svg?style=flat.svg)](https://img.shields.io/badge/support-CocoaPods-red.svg?style=flat.svg)
 [![Version](https://img.shields.io/cocoapods/v/AZTableView.svg?style=flat)](https://cocoapods.org/pods/AZTableView)
 [![License](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat.svg)](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat.svg)
 [![Platform](https://img.shields.io/badge/platform-ios-lightgrey.svg)](https://cocoapods.org/pods/AZTableView)
 
+
+<p align="center">
+    <a href="https://i.imgur.com/ru27MZD.gifv">
+        <img src="https://i.imgur.com/ru27MZD.gifv">
+    </a>
+</p>
 
 
 ## Features
@@ -29,7 +33,7 @@ $ gem install cocoapods
 ```
 
 
-To integrate AZTableViewController into your Xcode project using CocoaPods, specify it in your `Podfile`:
+To integrate AZ CollectionVIew controller into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
@@ -37,7 +41,7 @@ platform :ios, '10.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-pod 'AZTableView'
+pod 'AZCollectionViewController'
 end
 ```
 
@@ -51,32 +55,36 @@ $ pod install
 
 #### Step 1
 
-* Extend your view controller from AZTableVIewController 
+* Extend your view controller from AZCollectionViewController
 ```swift 
 
-class ViewController: AZTableViewController {
+class ViewController: AZCollectionViewController {
 
     var lastIndex = 0
     var results = [String]()
-    override func viewDidLoad() {
 
+    override func viewDidLoad() {
+    
+        nextLoadingCellNibName = "LoadingCollectionViewCell"
+        nextLoadingCellIdentifier = "LoadingCollectionViewCell"
+        loadNextPageLoaderCell(nibName: nextLoadingCellNibName, cellIdentifier: nextLoadingCellIdentifier) // Only if you want personal NextPage loading cell
+        
         super.viewDidLoad()
         self.fetchData()
-    }
-
-    override func viewDidAppear(_ animated: Bool) {
 
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+    
 }
 
 ```
 
 #### Step 2
 
+* Same as AZTableVIewController
 * Set the next page loading cell outlet as given below,
 
 ![Alt text](http://i.imgur.com/SWYNa2W.png "AZTableView-step2")
@@ -87,7 +95,7 @@ class ViewController: AZTableViewController {
 
 ```swift 
 
-class ViewController: AZTableViewController {
+class ViewController: AZCollectionViewController {
     override func viewDidLoad() {
 
         self.loadLoadingView(nibName: "your nib name") // if bundle is nil
@@ -109,25 +117,24 @@ Else use
 
 #### Step 3 
 
-* Confirm your controller to UITableViewDelegate and UITableViewDataSource
 
-* And override AZtabeView cellForRow function. 
+* And override AZCollectionView cellForRow function.
 
 ```swift 
-extension ViewController : UITableViewDataSource, UITableViewDelegate {
+extension ViewController {
 
-    override func AZtableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")
-        {
-            cell.textLabel?.text = results[indexPath.row]
-            return cell
-        }
-        return UITableViewCell()
+    override func AZCollectionView(_ collectionView: UICollectionView, cellForRowAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! TestCollectionViewCell
+        
+        cell.feedImage.image = UIImage(named: self.results[indexPath.row])
+        
+        return cell
     }
     
-    override func AZtableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return results.count
+    override func AZCollectionView(_ collectionView: UICollectionView, heightForRowAt indexPath: IndexPath) -> CGSize {
+    
+        return CGSize(width: (collectionView.frame.size.width / 3) - 6, height: (collectionView.frame.size.width / 3) - 4)
+        
     }
 }
 
@@ -183,12 +190,12 @@ extension ViewController {
 ```
 
 #### Done
-Thats it, you successfully integrate AZTableViewController 
+Thats it, you successfully integrate AZCollectionViewController
 
 
 ## License
 
-AZTableView is available under the MIT license. See the LICENSE file for more info.
+AZCollectionViewController is available under the MIT license. See the LICENSE file for more info.
 
 ## Author
 
