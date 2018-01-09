@@ -7,17 +7,12 @@
 [![License](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat.svg)](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat.svg)
 [![Platform](https://img.shields.io/badge/platform-ios-lightgrey.svg)](https://cocoapods.org/pods/AZTableView)
 
-<p align="center">
-<a href="http://i.imgur.com/rqSA6jv.gif">
-<img src="http://i.imgur.com/rqSA6jv.gif" height="450">
-</a>
-</p>
 
-<!--<p align="center">-->
-<!--    <a href="http://i.imgur.com/rqSA6jv.gif">-->
-<!--        <img src="http://i.imgur.com/rqSA6jv.gif" height="480">-->
-<!--    </a>-->
-<!--</p>-->
+<p align="center">
+    <a href="http://i.imgur.com/rqSA6jv.gif">
+        <img src="http://i.imgur.com/rqSA6jv.gif" height="480">
+    </a>
+</p>
 
 
 ## Features
