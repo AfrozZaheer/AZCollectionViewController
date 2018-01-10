@@ -3,14 +3,14 @@
 
 [![Swift version](https://img.shields.io/badge/swift%20-4.0-orange.svg)](https://img.shields.io/badge/swift%20-4.0-orange.svg)
 [![Support Dependecy Manager](https://img.shields.io/badge/support-CocoaPods-red.svg?style=flat.svg)](https://img.shields.io/badge/support-CocoaPods-red.svg?style=flat.svg)
-[![Version](https://img.shields.io/cocoapods/v/AZTableView.svg?style=flat)](https://cocoapods.org/pods/AZTableView)
+[![Version](https://img.shields.io/cocoapods/v/AZCollectionViewController.svg?style=flat)](https://cocoapods.org/pods/AZCollectionViewController)
 [![License](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat.svg)](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat.svg)
-[![Platform](https://img.shields.io/badge/platform-ios-lightgrey.svg)](https://cocoapods.org/pods/AZTableView)
+[![Platform](https://img.shields.io/badge/platform-ios-lightgrey.svg)](https://cocoapods.org/pods/AZCollectionViewController)
 
 
 <p align="center">
-    <a href="http://i.imgur.com/rqSA6jv.gif">
-        <img src="http://i.imgur.com/rqSA6jv.gif" height="480">
+    <a href="https://i.imgur.com/YtzbUed.gif">
+        <img src="https://i.imgur.com/YtzbUed.gif" height="480">
     </a>
 </p>
 
