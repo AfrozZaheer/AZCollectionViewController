@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "AZCollectionViewController"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "Automatic pagination handling and loading views"
 
   s.description  = <<-DESC
