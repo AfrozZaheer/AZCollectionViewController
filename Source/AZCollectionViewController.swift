@@ -93,6 +93,7 @@ open class AZCollectionViewController: UIViewController {
     
 }
 
+@objc
 extension AZCollectionViewController {
    open func AZCollectionView(_ collectionView: UICollectionView, numberOfRowsInSection section: Int) -> Int {
         return numberOfRows
@@ -165,7 +166,7 @@ extension AZCollectionViewController {
         
     }
     
-    open func didfetchData(resultCount: Int, haveMoreData: Bool) {
+    @objc open func didfetchData(resultCount: Int, haveMoreData: Bool) {
         hideNoResultsLoadingView()
         isFetchingData = false
         self.haveMoreData = haveMoreData
@@ -181,12 +182,12 @@ extension AZCollectionViewController {
         }
     }
     
-    open func fetchNextData () {
+    @objc open func fetchNextData () {
         isFetchingData = true
         hideErrorView()
     }
     
-    open func errorDidOccured(error: Error?) {
+    @objc open func errorDidOccured(error: Error?) {
         isFetchingData = false
         hideNoResultsView()
         hideErrorView()
