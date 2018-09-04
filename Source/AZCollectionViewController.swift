@@ -140,7 +140,7 @@ extension AZCollectionViewController: UICollectionViewDataSource, UICollectionVi
         return 1
     }
     
-    public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+    open func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         if showNextPageLoaderCell(collectionView: collectionView, section: indexPath.section, row: indexPath.row) {
             return nextLoadingCellSize!
