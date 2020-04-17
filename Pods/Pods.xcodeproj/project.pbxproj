@@ -63,30 +63,30 @@
 
 /* Begin PBXFileReference section */
 		00316FA3AD312DC6216553BAF0DF2662 /* ADMozaikLayoutCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ADMozaikLayoutCache.swift; path = ADMozaikCollectionViewLayout/Private/ADMozaikLayoutCache.swift; sourceTree = "<group>"; };
-		0433ECEC523A548258FC1E5EF08DFC3B /* ADMozaicCollectionViewLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ADMozaicCollectionViewLayout.modulemap; sourceTree = "<group>"; };
+		0433ECEC523A548258FC1E5EF08DFC3B /* ADMozaicCollectionViewLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ADMozaicCollectionViewLayout.modulemap; sourceTree = "<group>"; };
 		06FFFAB6ADCB7C2E5FC87EE670181AF0 /* ADMozaikLayoutStructs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ADMozaikLayoutStructs.swift; path = ADMozaikCollectionViewLayout/Public/ADMozaikLayoutStructs.swift; sourceTree = "<group>"; };
 		0A204F761CD66AAF066920CFBCEDC818 /* ADMozaikLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ADMozaikLayout.swift; path = ADMozaikCollectionViewLayout/Public/ADMozaikLayout.swift; sourceTree = "<group>"; };
-		0BE42D3DECCC77B0315546B6FF3EE133 /* AZCollectionViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AZCollectionViewController.modulemap; sourceTree = "<group>"; };
+		0BE42D3DECCC77B0315546B6FF3EE133 /* AZCollectionViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AZCollectionViewController.modulemap; sourceTree = "<group>"; };
 		1D1EF0684F3A85035B4BEEFDA9D117F5 /* Pods-AZ-CollectionViewController-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AZ-CollectionViewController-frameworks.sh"; sourceTree = "<group>"; };
 		253585DE80076EB68C236FD6701C9EDF /* ADMozaicCollectionViewLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ADMozaicCollectionViewLayout-prefix.pch"; sourceTree = "<group>"; };
 		39337B12C5E9F09E8C03B505EDE30B98 /* Pods-AZ-CollectionViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AZ-CollectionViewController-dummy.m"; sourceTree = "<group>"; };
-		3B0814B7F929EE41335BA3FE85D4A4AB /* AZCollectionViewElements.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AZCollectionViewElements.bundle; path = AZCollectionViewElements.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B0814B7F929EE41335BA3FE85D4A4AB /* AZCollectionViewElements.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AZCollectionViewElements.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CAF1C75FD68C0D8618DA46CC42DCF47 /* ADMozaicCollectionViewLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ADMozaicCollectionViewLayout-dummy.m"; sourceTree = "<group>"; };
 		3D6E66EB6176C13F62116F181C051DD1 /* AZCollectionViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZCollectionViewController-umbrella.h"; sourceTree = "<group>"; };
 		489F860956811D82E2F2F8A44DC6F808 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A768CD2069F8591C542283A2E21CEE5 /* Pods-AZ-CollectionViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AZ-CollectionViewController.modulemap"; sourceTree = "<group>"; };
+		4A768CD2069F8591C542283A2E21CEE5 /* Pods-AZ-CollectionViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AZ-CollectionViewController.modulemap"; sourceTree = "<group>"; };
 		563BEABB40A294CB16DF4F0445E95EE2 /* PhantomProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhantomProtocols.swift; path = ADMozaikCollectionViewLayout/Public/PhantomProtocols.swift; sourceTree = "<group>"; };
 		5DBC580BEA6EFB9507F45FD7683DB0B6 /* ADMozaikLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ADMozaikLayoutAttributes.swift; path = ADMozaikCollectionViewLayout/Private/ADMozaikLayoutAttributes.swift; sourceTree = "<group>"; };
 		606A3E784A1969860BAAD221E01F0091 /* ADMozaikLayoutSectionGeometry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ADMozaikLayoutSectionGeometry.swift; path = ADMozaikCollectionViewLayout/Private/ADMozaikLayoutSectionGeometry.swift; sourceTree = "<group>"; };
 		6B8CF822ADC206309B3006BF5732F990 /* Pods-AZ-CollectionViewController-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AZ-CollectionViewController-acknowledgements.markdown"; sourceTree = "<group>"; };
-		72731FE2CF5491B2DA3B8D2EE10F2712 /* ADMozaicCollectionViewLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ADMozaicCollectionViewLayout.framework; path = ADMozaicCollectionViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		73987A2A8BCD3749E519770CD77AD539 /* Pods_AZ_CollectionViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AZ_CollectionViewController.framework; path = "Pods-AZ-CollectionViewController.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72731FE2CF5491B2DA3B8D2EE10F2712 /* ADMozaicCollectionViewLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ADMozaicCollectionViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73987A2A8BCD3749E519770CD77AD539 /* Pods_AZ_CollectionViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZ_CollectionViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82B2E571D6813D5867A8A9F22EBD7FE8 /* AZCollectionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZCollectionViewController.swift; path = Source/AZCollectionViewController.swift; sourceTree = "<group>"; };
-		858605E27B10ADF2B295E5F27AC25C3F /* AZCollectionViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AZCollectionViewController.framework; path = AZCollectionViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		858605E27B10ADF2B295E5F27AC25C3F /* AZCollectionViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AZCollectionViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A50891C52752B3DFD05B179774AC9EF /* AZCollectionViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZCollectionViewController-prefix.pch"; sourceTree = "<group>"; };
 		90FB5C2018F4D2E9B4203C50F6254587 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93231E1B9A09FC3B67AFE63DB2A3E9F9 /* ADMozaikLayoutSectionMatrix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ADMozaikLayoutSectionMatrix.swift; path = ADMozaikCollectionViewLayout/Private/ADMozaikLayoutSectionMatrix.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9BBD78DDAE71711674DFACCB047E8449 /* ADMozaikLayoutDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ADMozaikLayoutDelegate.swift; path = ADMozaikCollectionViewLayout/Public/ADMozaikLayoutDelegate.swift; sourceTree = "<group>"; };
 		9CB495B2D5FBA76C5DAFC5EF4D6EB2C1 /* Pods-AZ-CollectionViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AZ-CollectionViewController-umbrella.h"; sourceTree = "<group>"; };
 		A4ACF38FEC387ADB7DA58EB1AB541C77 /* Utility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utility.swift; path = Source/Utility.swift; sourceTree = "<group>"; };
@@ -226,7 +226,6 @@
 				563BEABB40A294CB16DF4F0445E95EE2 /* PhantomProtocols.swift */,
 				6F16A34E06B0D435C285D8410A732835 /* Support Files */,
 			);
-			name = ADMozaicCollectionViewLayout;
 			path = ADMozaicCollectionViewLayout;
 			sourceTree = "<group>";
 		};
@@ -419,14 +418,15 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 1120;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
 			productRefGroup = C58435C353B0D08B292ABC32502C65C9 /* Products */;
@@ -556,7 +556,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -587,7 +587,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -599,6 +599,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -609,6 +610,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -616,6 +618,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -646,6 +649,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -708,7 +712,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -753,6 +757,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -763,6 +768,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -770,6 +776,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -849,7 +856,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
