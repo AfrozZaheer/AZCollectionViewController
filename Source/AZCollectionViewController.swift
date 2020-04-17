@@ -42,7 +42,7 @@ open class AZCollectionViewController: UIViewController {
         collectionView?.addSubview(refresh)
         collectionView?.delegate = self
         collectionView?.dataSource = self
-        collectionView?.contentInset = UIEdgeInsetsMake(4, 4, 4, 4)
+        collectionView?.contentInset = UIEdgeInsets(top: 4, left: 4, bottom: 4, right: 4)
         nextLoadingCellSize = CGSize(width: (collectionView?.frame.size.width)!, height: 44) // default cell size
         
         loadDefaultsViews()
@@ -95,13 +95,13 @@ open class AZCollectionViewController: UIViewController {
 
 @objc
 extension AZCollectionViewController {
-   open func AZCollectionView(_ collectionView: UICollectionView, numberOfRowsInSection section: Int) -> Int {
+   @objc open func AZCollectionView(_ collectionView: UICollectionView, numberOfRowsInSection section: Int) -> Int {
         return numberOfRows
     }
-   open func AZCollectionView(_ collectionView: UICollectionView, cellForRowAt indexPath: IndexPath) -> UICollectionViewCell {
+   @objc open func AZCollectionView(_ collectionView: UICollectionView, cellForRowAt indexPath: IndexPath) -> UICollectionViewCell {
         return UICollectionViewCell()
     }
-   open func AZCollectionView(_ collectionView: UICollectionView, heightForRowAt indexPath: IndexPath) -> CGSize {
+   @objc open func AZCollectionView(_ collectionView: UICollectionView, heightForRowAt indexPath: IndexPath) -> CGSize {
         return CGSize.zero
     }
 }
